@@ -1,21 +1,20 @@
 ## Description
 
 This is an python script to get a colorspace range for your computer vision or image processing projects using trackbars.
-The demo can be found in folder [demo](https://github.com/kushalchaudhari21/RangeFinder/tree/master/demo).
 
 ## Sample Invocation
 
-In the terminal, you need to specify a filter and "only one" image source: 
+* In the terminal, you need to specify a filter and "only one" image source: 
 ```
 (python) range-detector --filter RGB --image /path/to/image.png
 ```
-You can also capture image via webcam to process it further:
+* You can also capture image via webcam to process it further:
 ```
 (python) range-detector --filter HSV --webcam
 ```
-Example:
+* Example:
 ```console
-python range_finder.py --filter HSV --image /Users/Desktop/tutorials/git/RangeFinder/img.jpeg 
+(cv) KC:RangeFinder> python range_finder.py --filter HSV --image /Users/Desktop/tutorials/git/RangeFinder/img.jpeg 
 ```
 ![executionCommand](https://github.com/kushalchaudhari21/RangeFinder/blob/master/demo/SampleInvocation.gif)
 
